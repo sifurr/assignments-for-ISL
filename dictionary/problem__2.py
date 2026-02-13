@@ -5,7 +5,7 @@ for name, price in menu.items():
     print(f"{name}: ${price}")
 
 print("\n===== Menu After The Update =====")
-for name in list(menu.keys()):
+for nae in list(menu.keys()):
     if menu[name] > 10:
         del menu[name]
 
